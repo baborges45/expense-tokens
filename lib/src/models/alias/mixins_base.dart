@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 abstract class AliasMixinBase {
+  TextStyle get labelLg5;
+  TextStyle get labelLg4;
   TextStyle get labelLg3;
   TextStyle get labelLg2;
   TextStyle get labelLg1;

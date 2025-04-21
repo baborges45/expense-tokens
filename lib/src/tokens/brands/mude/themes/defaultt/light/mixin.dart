@@ -13,6 +13,24 @@ class AliasMixin implements AliasMixinBase {
   });
 
   @override
+  TextStyle get labelLg5 => TextStyle(
+        fontFamily: globalTokens.typographys.fontFamilyBase,
+        fontWeight: globalTokens.typographys.fontWeightBold,
+        fontSize: globalTokens.typographys.fontSizeMd,
+        height: globalTokens.typographys.lineHeightDefault,
+        letterSpacing: globalTokens.typographys.letterSpacingNegative,
+      );
+
+  @override
+  TextStyle get labelLg4 => TextStyle(
+        fontFamily: globalTokens.typographys.fontFamilyBase,
+        fontWeight: globalTokens.typographys.fontWeightBold,
+        fontSize: globalTokens.typographys.fontSizeSm,
+        height: globalTokens.typographys.lineHeightDefault,
+        letterSpacing: globalTokens.typographys.letterSpacingNegative,
+      );
+
+  @override
   TextStyle get labelLg3 => TextStyle(
         fontFamily: globalTokens.typographys.fontFamilyBase,
         fontWeight: globalTokens.typographys.fontWeightBold,
