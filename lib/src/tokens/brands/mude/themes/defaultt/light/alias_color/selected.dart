@@ -9,23 +9,23 @@ class AliasColorSelected implements AliasColorSelectedBase {
   AliasColorSelected(this.globalTokens);
 
   @override
-  Color get bgColor => globalTokens.colors.grey50;
+  Color get bgColor => globalTokens.colors.grey900;
 
   @override
-  Color get borderColor => globalTokens.colors.grey50;
+  Color get borderColor => globalTokens.colors.grey900;
 
   @override
   Color get labelColor => globalTokens.colors.grey900;
 
   @override
-  Color get iconColor => globalTokens.colors.grey50;
+  Color get iconColor => globalTokens.colors.grey900;
 
   @override
-  Color get onBgColor => globalTokens.colors.grey900;
+  Color get onBgColor => globalTokens.colors.grey100;
 
   @override
-  Color get onLabelColor => globalTokens.colors.grey900;
+  Color get onLabelColor => globalTokens.colors.grey0;
 
   @override
-  Color get onIconColor => globalTokens.colors.grey900;
+  Color get onIconColor => globalTokens.colors.grey0;
 }

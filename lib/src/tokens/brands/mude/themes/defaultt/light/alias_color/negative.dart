@@ -8,31 +8,31 @@ class AliasColorNegative implements AliasColorNegativeBase {
   AliasColorNegative(this.globalTokens);
 
   @override
-  Color get bgColor => globalTokens.colors.red700;
+  Color get bgColor => globalTokens.colors.red50;
 
   @override
-  Color get borderColor => globalTokens.colors.red700;
+  Color get borderColor => globalTokens.colors.red400;
 
   @override
-  Color get iconColor => globalTokens.colors.red200;
+  Color get iconColor => globalTokens.colors.red500;
 
   @override
-  Color get labelColor => globalTokens.colors.red200;
+  Color get labelColor => globalTokens.colors.red500;
 
   @override
-  Color get placeholderColor => globalTokens.colors.red50;
+  Color get placeholderColor => globalTokens.colors.red300;
 
   @override
-  Color get supportTextColor => globalTokens.colors.red200;
+  Color get supportTextColor => globalTokens.colors.red600;
 
   @override
-  Color get headingColor => globalTokens.colors.red200;
+  Color get headingColor => globalTokens.colors.red600;
 
   @override
-  Color get paragraphColor => globalTokens.colors.red200;
+  Color get paragraphColor => globalTokens.colors.red600;
 
   @override
-  Color get descriptionColor => globalTokens.colors.red200;
+  Color get descriptionColor => globalTokens.colors.red500;
 
   @override
   Color get onIconColor => globalTokens.colors.red50;

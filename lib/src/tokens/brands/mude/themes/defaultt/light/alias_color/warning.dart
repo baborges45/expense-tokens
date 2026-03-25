@@ -9,31 +9,31 @@ class AliasColorWarning implements AliasColorWarningBase {
   AliasColorWarning(this.globalTokens);
 
   @override
-  Color get bgColor => globalTokens.colors.orange700;
+  Color get bgColor => globalTokens.colors.orange50;
 
   @override
-  Color get borderColor => globalTokens.colors.orange700;
+  Color get borderColor => globalTokens.colors.orange400;
 
   @override
-  Color get iconColor => globalTokens.colors.orange200;
+  Color get iconColor => globalTokens.colors.orange500;
 
   @override
-  Color get labelColor => globalTokens.colors.orange200;
+  Color get labelColor => globalTokens.colors.orange500;
 
   @override
-  Color get placeholderColor => globalTokens.colors.orange200;
+  Color get placeholderColor => globalTokens.colors.orange400;
 
   @override
-  Color get supportTextColor => globalTokens.colors.orange200;
+  Color get supportTextColor => globalTokens.colors.orange600;
 
   @override
-  Color get headingColor => globalTokens.colors.orange200;
+  Color get headingColor => globalTokens.colors.orange600;
 
   @override
-  Color get paragraphColor => globalTokens.colors.orange200;
+  Color get paragraphColor => globalTokens.colors.orange600;
 
   @override
-  Color get descriptionColor => globalTokens.colors.orange200;
+  Color get descriptionColor => globalTokens.colors.orange500;
 
   @override
   Color get onIconColor => globalTokens.colors.orange50;

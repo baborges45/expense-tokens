@@ -9,31 +9,31 @@ class AliasColorPositive implements AliasColorPositiveBase {
   AliasColorPositive(this._globalTokens);
 
   @override
-  Color get bgColor => _globalTokens.colors.green700;
+  Color get bgColor => _globalTokens.colors.green50;
 
   @override
-  Color get borderColor => _globalTokens.colors.green700;
+  Color get borderColor => _globalTokens.colors.green400;
 
   @override
-  Color get iconColor => _globalTokens.colors.green200;
+  Color get iconColor => _globalTokens.colors.green500;
 
   @override
-  Color get labelColor => _globalTokens.colors.green200;
+  Color get labelColor => _globalTokens.colors.green500;
 
   @override
   Color get placeholderColor => _globalTokens.colors.green400;
 
   @override
-  Color get supportTextColor => _globalTokens.colors.green200;
+  Color get supportTextColor => _globalTokens.colors.green600;
 
   @override
-  Color get headingColor => _globalTokens.colors.green200;
+  Color get headingColor => _globalTokens.colors.green600;
 
   @override
-  Color get paragraphColor => _globalTokens.colors.green200;
+  Color get paragraphColor => _globalTokens.colors.green600;
 
   @override
-  Color get descriptionColor => _globalTokens.colors.green200;
+  Color get descriptionColor => _globalTokens.colors.green500;
 
   @override
   Color get onIconColor => _globalTokens.colors.green50;

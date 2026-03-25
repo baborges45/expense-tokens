@@ -9,31 +9,31 @@ class AliasColorPromote implements AliasColorPromoteBase {
   AliasColorPromote(this.globalTokens);
 
   @override
-  Color get bgColor => globalTokens.colors.purple700;
+  Color get bgColor => globalTokens.colors.purple50;
 
   @override
-  Color get borderColor => globalTokens.colors.purple700;
+  Color get borderColor => globalTokens.colors.purple400;
 
   @override
-  Color get iconColor => globalTokens.colors.purple200;
+  Color get iconColor => globalTokens.colors.purple500;
 
   @override
-  Color get labelColor => globalTokens.colors.purple200;
+  Color get labelColor => globalTokens.colors.purple500;
 
   @override
-  Color get placeholderColor => globalTokens.colors.purple200;
+  Color get placeholderColor => globalTokens.colors.purple300;
 
   @override
-  Color get supportTextColor => globalTokens.colors.purple200;
+  Color get supportTextColor => globalTokens.colors.purple600;
 
   @override
-  Color get headingColor => globalTokens.colors.purple200;
+  Color get headingColor => globalTokens.colors.purple600;
 
   @override
-  Color get paragraphColor => globalTokens.colors.purple200;
+  Color get paragraphColor => globalTokens.colors.purple600;
 
   @override
-  Color get descriptionColor => globalTokens.colors.purple200;
+  Color get descriptionColor => globalTokens.colors.purple500;
 
   @override
   Color get onIconColor => globalTokens.colors.purple50;

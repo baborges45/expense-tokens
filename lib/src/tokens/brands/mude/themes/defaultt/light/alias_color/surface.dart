@@ -9,11 +9,11 @@ class AliasColorSurface implements AliasColorSurfaceBase {
   AliasColorSurface(this.globalTokens);
 
   @override
-  Color get color01 => globalTokens.colors.grey900;
+  Color get color01 => globalTokens.colors.grey0;
 
   @override
   Color get color02 => globalTokens.colors.grey50;
 
   @override
-  Color get color03 => globalTokens.colors.grey700;
+  Color get color03 => globalTokens.colors.grey200;
 }

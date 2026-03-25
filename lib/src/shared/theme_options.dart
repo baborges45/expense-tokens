@@ -1,9 +1,11 @@
 // ignore_for_file: constant_identifier_names
 
 import 'package:expense_tokens/src/models/theme_model.dart';
-import 'package:expense_tokens/src/tokens/brands/mude/components.dart' as components;
+import 'package:expense_tokens/src/tokens/brands/mude/components.dart'
+    as components;
 import 'package:expense_tokens/src/tokens/brands/mude/globals.dart' as global;
-import 'package:expense_tokens/src/tokens/brands/mude/themes/defaultt/alias.dart' as default_theme;
+import 'package:expense_tokens/src/tokens/brands/mude/themes/defaultt/alias.dart'
+    as default_theme;
 import 'package:expense_tokens/tokens.dart';
 
 // Importe da Brand (Marca)
@@ -20,6 +22,7 @@ final List<ExpenseThemeModel> listThemes = [
     globals: global.GlobalTokens(),
     components: components.ComponentTokens(),
     aliasLight: default_theme.AliasTokens(mode: ExpenseThemeMode.light),
-    aliasDark: default_theme.AliasTokens(mode: ExpenseThemeMode.light),
+    // dark mode tokens are generated too so the manager can switch themes
+    aliasDark: default_theme.AliasTokens(mode: ExpenseThemeMode.dark),
   ),
 ];

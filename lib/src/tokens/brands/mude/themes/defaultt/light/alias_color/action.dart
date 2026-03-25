@@ -12,13 +12,13 @@ class AliasColorAction implements AliasColorActionBase {
   Color get bgPrimaryColor => globalTokens.colors.yellow400;
 
   @override
-  Color get borderPrimaryColor => globalTokens.colors.grey50;
+  Color get borderPrimaryColor => globalTokens.colors.grey900;
 
   @override
-  Color get labelPrimaryColor => globalTokens.colors.grey50;
+  Color get labelPrimaryColor => globalTokens.colors.grey900;
 
   @override
-  Color get iconPrimaryColor => globalTokens.colors.grey50;
+  Color get iconPrimaryColor => globalTokens.colors.grey900;
 
   @override
   Color get onLabelPrimaryColor => globalTokens.colors.grey900;
@@ -27,16 +27,16 @@ class AliasColorAction implements AliasColorActionBase {
   Color get onIconPrimaryColor => globalTokens.colors.grey900;
 
   @override
-  Color get bgSecondaryColor => globalTokens.colors.grey0;
+  Color get bgSecondaryColor => globalTokens.colors.grey100;
 
   @override
-  Color get borderSecondaryColor => globalTokens.colors.grey0;
+  Color get borderSecondaryColor => globalTokens.colors.grey200;
 
   @override
-  Color get labelSecondaryColor => globalTokens.colors.grey0;
+  Color get labelSecondaryColor => globalTokens.colors.grey800;
 
   @override
-  Color get iconSecondaryColor => globalTokens.colors.grey0;
+  Color get iconSecondaryColor => globalTokens.colors.grey800;
 
   @override
   Color get onLabelSecondaryColor => globalTokens.colors.grey900;

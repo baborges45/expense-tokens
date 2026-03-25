@@ -8,35 +8,35 @@ class AliasColorText implements AliasColorTextBase {
 
   AliasColorText(this.globalTokens);
   @override
-  Color get headingColor => globalTokens.colors.grey50;
+  Color get headingColor => globalTokens.colors.grey900;
 
   @override
-  Color get paragraphColor => globalTokens.colors.grey50;
+  Color get paragraphColor => globalTokens.colors.grey800;
 
   @override
-  Color get descriptionColor => globalTokens.colors.grey300;
+  Color get descriptionColor => globalTokens.colors.grey500;
 
   @override
-  Color get labelColor => globalTokens.colors.grey50;
+  Color get labelColor => globalTokens.colors.grey900;
 
   @override
-  Color get placeholderColor => globalTokens.colors.grey300;
+  Color get placeholderColor => globalTokens.colors.grey400;
 
   @override
-  Color get supportTextColor => globalTokens.colors.grey300;
+  Color get supportTextColor => globalTokens.colors.grey500;
 
   @override
-  Color get onParagraphColor => globalTokens.colors.grey50;
+  Color get onParagraphColor => globalTokens.colors.grey0;
 
   @override
-  Color get onDescriptionColor => globalTokens.colors.grey300;
+  Color get onDescriptionColor => globalTokens.colors.grey200;
 
   @override
-  Color get onHeadingColor => globalTokens.colors.grey50;
+  Color get onHeadingColor => globalTokens.colors.grey0;
 
   @override
-  Color get onLabelColor => globalTokens.colors.grey50;
+  Color get onLabelColor => globalTokens.colors.grey0;
 
   @override
-  Color get onPlaceholderColor => globalTokens.colors.grey300;
+  Color get onPlaceholderColor => globalTokens.colors.grey200;
 }

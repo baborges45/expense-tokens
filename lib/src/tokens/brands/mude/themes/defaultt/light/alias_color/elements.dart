@@ -8,35 +8,35 @@ class AliasColorElements implements AliasColorElementsBase {
   AliasColorElements(this.globalTokens);
 
   @override
-  Color get bgColor01 => globalTokens.colors.grey900;
+  Color get bgColor01 => globalTokens.colors.grey0;
 
   @override
-  Color get bgColor02 => globalTokens.colors.grey800;
+  Color get bgColor02 => globalTokens.colors.grey100;
 
   @override
-  Color get bgColor03 => globalTokens.colors.grey600;
+  Color get bgColor03 => globalTokens.colors.grey200;
 
   @override
-  Color get bgColor04 => globalTokens.colors.grey700;
+  Color get bgColor04 => globalTokens.colors.grey300;
 
   @override
-  Color get bgColor05 => globalTokens.colors.grey0;
+  Color get bgColor05 => globalTokens.colors.grey900;
 
   @override
   Color get bgColor06 => globalTokens.colors.yellow400;
 
   @override
-  Color get borderColor => globalTokens.colors.grey700;
+  Color get borderColor => globalTokens.colors.grey200;
 
   @override
-  Color get iconColor => globalTokens.colors.grey50;
+  Color get iconColor => globalTokens.colors.grey800;
 
   @override
   Color get notificationColor => globalTokens.colors.yellow400;
 
   @override
-  Color get onIconColor => globalTokens.colors.grey50;
+  Color get onIconColor => globalTokens.colors.grey800;
 
   @override
-  Color get negativeColor => globalTokens.colors.red300;
+  Color get negativeColor => globalTokens.colors.red400;
 }
